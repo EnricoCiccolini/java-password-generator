@@ -29,7 +29,7 @@ public class PasswordGenerator {
         inte.close();
 
         int passwordNamber = dayOfBirth + monthOfBirth + yearOfBirth;
-        String password = name + surnname + PreferColor + passwordNamber;
+        String password = name + "-" + surnname + "-" + PreferColor + "-" + passwordNamber;
 
         System.out.println(password);
 
